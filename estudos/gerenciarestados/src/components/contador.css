@@ -1,0 +1,26 @@
+.contador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+button{
+    margin-left: 5px;
+    border: none;
+    background-color: aqua;
+    font-size: 25px;
+    border-radius: 5px;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(0, 150, 150);
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
